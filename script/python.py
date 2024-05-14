@@ -1,6 +1,6 @@
 import os
 
-print ("hello Barry")
+print("hello Barry")
 
-os.sytem("date")
+os.sytem("nproc")
 os.system("uname -r")
