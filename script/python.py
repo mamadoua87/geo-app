@@ -2,5 +2,5 @@ import os
 
 print("hello Barry")
 
-os.sytem("nproc")
+os.system("nproc")
 os.system("uname -r")
