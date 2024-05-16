@@ -18,7 +18,7 @@ sh 'mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.pr
 
 
 
-    stage("maven1"){
+    stage("maven"){
         steps{ 
         sh 'mvn clean validate compile install test package'
         }
